@@ -1,0 +1,21 @@
+{
+  "v3": {
+    "prefix": "v3",
+    "body": [
+      "<script setup>",
+      "defineOptions({",
+      "  name: \"${1:ComponentName}\"",
+      "})",
+      "</script>",
+      "",
+      "<template>",
+      "  <div class=\"${1:ComponentName}\"></div>",
+      "</template>",
+      "",
+      "<style lang=\"less\" scoped>",
+      "</style>",
+      ""
+    ],
+    "description": "v3"
+  }
+}
