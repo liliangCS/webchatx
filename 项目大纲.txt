@@ -1,0 +1,7 @@
+功能点：
+1. 支持发送文字消息，emoji表情，图片
+2. 支持语音视频聊天
+
+技术栈：
+前端：vue + websocket + webrtc
+后端：nodejs + websocket + minio + mysql
