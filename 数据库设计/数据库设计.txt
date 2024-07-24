@@ -1,0 +1,16 @@
+用户表：
+user_id
+username
+nickname
+password
+level (0：管理员 1：普通用户)
+rcode_id
+last_online
+create_time
+
+注册码表
+code_id
+code
+total_count
+usage_count
+create_time
