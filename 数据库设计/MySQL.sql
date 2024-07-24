@@ -14,6 +14,6 @@ CREATE TABLE registration_codes (
     registration_code VARCHAR(255) NOT NULL UNIQUE,
     total_usage_count INT NOT NULL,
     current_usage_count INT NOT NULL DEFAULT 0,
-    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
-    user_id INT NOT NULL, -- 用户id
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    user_id INT NOT NULL -- 用户id
 );
