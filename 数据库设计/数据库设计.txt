@@ -1,16 +1,37 @@
-用户表：
-user_id
-username
-nickname
-password
-level (0：管理员 1：普通用户)
-rcode_id
-last_online
-create_time
+-- 1.用户表
+用户ID
+用户名
+昵称
+密码
+用户级别 (0：普通用户 1：管理员)
+所属注册码
+上次在线时间
+注册时间
 
-注册码表
-code_id
-code
-total_count
-usage_count
-create_time
+-- 2.注册码表
+注册码ID
+注册码
+总次数
+已使用次数
+创建者ID
+创建时间
+
+-- 3.聊天室表
+聊天室ID
+进入是否加密
+聊天室密码
+是否限制最大人数
+最大人数
+聊天室在线成员id列表（字符串，以,分割）
+创建者ID
+创建时间
+
+-- 4.聊天记录表
+聊天记录ID
+发送者ID
+接受者ID（聊天室ID）
+纯文本内容字符串
+emoji字符串（a:b;）
+是否是图片消息
+图片地址
+发送时间
