@@ -9,16 +9,16 @@ importers:
   .:
     dependencies:
       cuka:
-        specifier: ^1.0.10
-        version: 1.0.10
+        specifier: ^1.0.11
+        version: 1.0.11
       ws:
         specifier: ^8.18.0
         version: 8.18.0
 
 packages:
 
-  cuka@1.0.10:
-    resolution: {integrity: sha512-UopsJxA63OFidPSRR+W2MPAWRyquYduai5DAl4Gfucl4SBcFJKrVtOo9EFFGXX0KJ2mhHVZUyjml/OskNSWs8w==}
+  cuka@1.0.11:
+    resolution: {integrity: sha512-kAHcUq5kBRAsguQZpEkuVrzOIgX201DwwXug9K8OdRfJ7I7iXYQ4LfA/oYrcPhkAsZDsdbU3Qu7fB5deYuCBLw==}
     engines: {node: '>=7.6.0'}
 
   ws@8.18.0:
@@ -35,6 +35,6 @@ packages:
 
 snapshots:
 
-  cuka@1.0.10: {}
+  cuka@1.0.11: {}
 
   ws@8.18.0: {}
