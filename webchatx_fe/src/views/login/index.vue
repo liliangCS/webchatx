@@ -7,7 +7,6 @@ defineOptions({
 
 <template>
   <div class="login-view">
-    <Loader />
   </div>
 </template>
 
