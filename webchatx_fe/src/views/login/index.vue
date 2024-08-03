@@ -106,6 +106,10 @@ defineOptions({
       font-size: 18px;
       cursor: pointer;
       user-select: none;
+
+      &:hover {
+        background-color: #4b73e8;
+      }
     }
 
     .other {
@@ -118,6 +122,10 @@ defineOptions({
 
       span {
         cursor: pointer;
+
+        &:hover {
+          color: #fff;
+        }
       }
     }
   }
