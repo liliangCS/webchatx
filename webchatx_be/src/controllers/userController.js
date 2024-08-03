@@ -1,6 +1,9 @@
+import { queryUserByUsername } from "../database/user.js";
+
 const userController = (httpServer) => {
   httpServer.on("/user/login", "post", (ctx) => {
-    console.log(JSON.parse(ctx.request.body).username);
+    const { username, password } = JSON.parse(ctx.request.body);
+    queryUserByUsername(username);
     ctx.end("/user/login");
   });
   httpServer.on("/user/register", "post", (ctx) => {
