@@ -1,8 +1,13 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { useRouter } from "vue-router";
 defineOptions({
   name: "login-view"
 });
+const router = useRouter();
+
+const onCreateClick = () => {
+  router.push("/register");
+};
 </script>
 
 <template>
@@ -19,7 +24,7 @@ defineOptions({
       </div>
       <div class="login-btn">登录</div>
       <div class="other">
-        <span>创建账号</span>
+        <span @click="onCreateClick">创建账号</span>
         <span>忘记密码</span>
       </div>
     </div>
@@ -91,6 +96,7 @@ defineOptions({
 
         &::placeholder {
           color: rgba(255, 255, 255, 0.7);
+          user-select: none;
         }
       }
     }
